@@ -47,7 +47,7 @@ body {
   background: #fff8f3;
   background-image: url("../images/header_bg.png"),
     url("../images/developer.png");
-  background-position: bottom right, top left;
+  background-position: bottom right, bottom left;
   background-repeat: no-repeat;
 }
 
@@ -85,7 +85,7 @@ nav a {
   align-items: center;
   padding: 40px 40px 0px 230px;
 }
-.profile-pic {
+.profile-pic img{
   width: 580px;
 }
 .banner-greeting {
@@ -172,7 +172,7 @@ section {
   gap: 70px;
   margin-top: 110px;
 }
-.resume-column{
+.resume-column {
   width: 100%;
 }
 .resume-column-title {
@@ -195,14 +195,64 @@ section {
   margin-bottom: 20px;
   margin-top: 0px;
 }
-.resume-description{
+.resume-description {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
   margin-top: 0px;
   margin-bottom: 30px;
 }
-#btn-center{
+#btn-center {
   margin: 50px auto 110px;
   text-align: center;
+}
+
+/* footer related styles */
+footer {
+  padding: 130px 230px;
+  background: #fff8f3;
+  display: flex;
+  gap: 110px;
+  justify-content: space-between;
+}
+.content-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.content-description {
+  color: #474747;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.social-links {
+  display: flex;
+  width: 24px;
+  gap: 24px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 18px 30px;
+  border-radius: 5px;
+  background: #fff;
+  margin-bottom: 25px;
+  border: none;
+}
+input[type="submit"] {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #fd6e0a;
+  padding: 20px 40px;
+  border: none;
 }
